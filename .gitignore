@@ -1,0 +1,10 @@
+# IDE
+/.idea/
+/.project/
+/.settings/
+/.classpath/
+/nbproject/
+
+# Trash files
+*~
+.DS_Store
