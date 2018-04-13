@@ -1,6 +1,11 @@
 # Drupal docker image
 
-Based on [official Drupal docker image](https://hub.docker.com/_/drupal/) with :
+This image is based on drupal docker official image :
+
+- Docker image : [drupal](https://hub.docker.com/_/drupal/)
+- Github repository : [docker-library/drupal](https://github.com/docker-library/drupal)
+
+Additions :
 
 - HTTPS support : usage of snakeoil certificates (linux package `ssl-cert`)
 - Clean permissions with docker
