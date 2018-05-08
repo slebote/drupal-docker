@@ -9,6 +9,7 @@
 
 - HTTPS support : usage of self-signed snakeoil certificates (based on linux package `ssl-cert`)
 - Clean permissions with docker : force `www-data` user to every mounted volumes
+- Mysql client for drush support
 
 ## Supported tags and respective `Dockerfile` links
 
