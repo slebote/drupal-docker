@@ -13,3 +13,6 @@ RUN a2enmod rewrite ssl
 
 # Clean Apache rights
 RUN usermod -u 1000 www-data
+
+# Expose ports
+EXPOSE 443
