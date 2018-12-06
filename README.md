@@ -16,6 +16,7 @@
 - `7.58-apache`, `7-58` [(7/apache/Dockerfile)](https://github.com/slebote/drupal-docker/blob/master/7/apache/Dockerfile)
 - `7.59-apache`, `7-59` [(7/apache/Dockerfile)](https://github.com/slebote/drupal-docker/blob/master/7/apache/Dockerfile)
 - `7.61-apache`, `7-61` [(7/apache/Dockerfile)](https://github.com/slebote/drupal-docker/blob/master/7/apache/Dockerfile)
+- `8.6.3-apache`, `8.6.3` [(8/apache/Dockerfile)](https://github.com/slebote/drupal-docker/blob/master/8/apache/Dockerfile)
 
 ## Docker compose
 
