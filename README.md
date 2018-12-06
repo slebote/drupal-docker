@@ -15,6 +15,7 @@
 
 - `7.58-apache`, `7-58` [(7/apache/Dockerfile)](https://github.com/slebote/drupal-docker/blob/master/7/apache/Dockerfile)
 - `7.59-apache`, `7-59` [(7/apache/Dockerfile)](https://github.com/slebote/drupal-docker/blob/master/7/apache/Dockerfile)
+- `7.61-apache`, `7-61` [(7/apache/Dockerfile)](https://github.com/slebote/drupal-docker/blob/master/7/apache/Dockerfile)
 
 ## Docker compose
 
@@ -27,7 +28,7 @@ composer template (this template implements `vendor` directory with `drush` comm
 version: "3"
 services:
   web:
-    image: slebote/drupal-docker:7.59
+    image: slebote/drupal-docker:7.61
     volumes:
       - ./web/sites:/var/www/html/sites
       - ./web/modules:/var/www/html/modules
@@ -70,7 +71,7 @@ If you are using this nginx auto-proxy don't forget to add certificates as volum
 version: "3"
 services:
   web:
-    image: slebote/drupal-docker:7.59
+    image: slebote/drupal-docker:7.61
     volumes:
       - ./web/sites:/var/www/html/sites
       - ./web/modules:/var/www/html/modules

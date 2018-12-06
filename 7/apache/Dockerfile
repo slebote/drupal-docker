@@ -1,5 +1,5 @@
 # Distribution
-FROM drupal:7.59
+FROM drupal:7.61
 
 # Non-interactive
 ENV DEBIAN_FRONTEND noninteractive
